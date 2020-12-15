@@ -1,7 +1,7 @@
 [
   {
     "id": "tiger",
-    "type": "CONTAINER",
+    "type": "GENERIC",
     "category": "container",
     "name": "魔法瓶(1.5L)[MMF]",
     "looks_like": "thermos",
@@ -10,16 +10,22 @@
     "price": 1895,
     "price_postapoc": 100,
     "volume": "1750 ml",
-    "contains": "1500 ml",
-    "material": "steel",
+    "material": [ "steel" ],
     "symbol": "I",
     "color": "green",
-    "seals": true,
-    "watertight": true,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "watertight": true,
+        "max_contains_volume": "1500 ml",
+        "max_contains_weight": "6 kg"
+      }
+    ],
     "insulation": 10
   },{
     "id": "zouzirushi",
-    "type": "CONTAINER",
+    "type": "GENERIC",
     "category": "container",
     "name": "魔法瓶(2L)[MMF]",
     "looks_like": "thermos",
@@ -28,12 +34,18 @@
     "price": 2095,
     "price_postapoc": 100,
     "volume": "2250 ml",
-    "contains": "2000 ml",
-    "material": "steel",
+    "material": [ "steel" ],
     "symbol": "I",
     "color": "green",
-    "seals": true,
-    "watertight": true,
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "rigid": true,
+        "watertight": true,
+        "max_contains_volume": "2 L",
+        "max_contains_weight": "8 kg"
+      }
+    ],
     "insulation": 10
   }
 ]
